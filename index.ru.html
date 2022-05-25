@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <!-- Meta
+    ============================================= -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, intial-scale=1, max-scale=1" />
+
+  <meta name="author" content="ExplicitConcepts" />
+
+  <!-- Stylesheets 
+    ============================================= -->
+
+  <link rel="stylesheet" href="css/intlTelInput.css" />
+  <link href="css/css-assets.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700i,700" rel="stylesheet" />
+  <link rel="stylesheet" href="css/all.css" />
+  <link rel="stylesheet" href="css/brands.css" />
+  <link rel="stylesheet" href="css/fontawesome.css" />
+  <link rel="stylesheet" href="css/animation/style.css">
+
+  <!-- Bootstrap
+    ============================================= -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+  <!-- Favicon
+    ============================================= -->
+  <link rel="shortcut icon" href="images/files/zucco-logo-01@4x.png" />
+  <!-- Bootstrap
+    ============================================= -->
+
+  <!-- carusel  link 
+  ============================================= -->
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.4.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+    defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.4.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <!-- <font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    
+  <!-- <font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- Title
+    ============================================= -->
+  <title>Zucco Academy</title>
+  <style>
+    #chatra {
+      position: fixed;
+      bottom: 40px !important;
+      right: 20px !important;
+    }
+
+    .font{
+      font-family: 'Oswald', sans-serif !important;
+      text-transform: uppercase;
+    }
+    .chat-ponel {
+      position: fixed;
+      width: 280px;
+      z-index: 100;
+      bottom: 0px;
+      right: -120px;
+      transform: translate(-50%, -50%);
+
+    }
+    h3 .nav-link {
+     font-size: 20px !important; 
+      line-height: 21px;
+}
+  </style>
+  <!-- Chatra {literal} -->
+  <script>
+    (function (d, w, c) {
+      w.ChatraID = 'rBwdTuBCBk74bdAdd';
+      var s = d.createElement('script');
+      w[c] = w[c] || function () {
+        (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+  </script>
+  <!-- /Chatra {/literal} -->
+</head>
+
+<body>
+  <div id="scroll-progress">
+    <div class="scroll-progress"><span class="scroll-percent"></span></div>
+  </div>
+
+  <div class="chat-ponel">
+    <a href="https://t.me/zucco_admin" target="_blank">
+      <div class="chat-ponel-in1 d-flex text-center">
+        <i style="width: 30px; height: 30px; margin-top: 15px !important;" class="fab fa-telegram text-white m-2"></i>
+        <div class="pt-1">
+          <h4 class="text-white font" style="font-size: 15px !important;">Вам нужна помощь?</h4>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div id="navInfoPhone" class="position-absolite fixed-top overflow-hidden bg-dark navPhone">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            <a href="tel:+998712001001">
+              <i style="width: 23px; height: 23px;" class="fa fa-phone-alt text-white m-3"></i></a>
+            <h1 class="text-white mt-2">|</h1>
+            <a href="https://www.google.ru/maps/place/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8%D0%B9+%D0%A5%D0%B8%D0%BC%D0%B8%D0%BA%D0%BE-%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82/@41.3221315,69.2468392,18.75z/data=!4m5!3m4!1s0x38ae8b737f1f4161:0xab6842dfd7a53fdf!8m2!3d41.3221446!4d69.2463052"
+              target="_blank">
+              <i style="width: 23px; height: 23px;" class="fa fa-map-marker-alt text-white m-3"></i></a>
+            <h1 class="text-white mt-2">|</h1>
+            <a href="https://t.me/zuccoacademy" target="_blank"><i style="width: 23px; height: 23px;"
+                class="fab fa-telegram text-white m-3"></i></a>
+            <h1 class="text-white mt-2">|</h1>
+            <a href="https://www.instagram.com/zucco.academy/" target="_blank"><i style="width: 23px; height: 23px;"
+                class="fab fa-instagram text-white m-3"></i></a>
+            <h1 class="text-white mt-2">|</h1>
+            <a href="https://www.facebook.com/ZuccoAcademy" target="_blank"><i style="width: 23px; height: 23px;"
+                class="fab fa-facebook text-white m-3"></i></a>
+            <h1 class="text-white mt-2">|</h1>
+            <!-- <a href="https://www.youtube.com/channel/UC4gsCHZHPnrF75LOY2CG7GA/featured?view_as=subscriber"
+              target="_blank"><i style="width: 23px; height: 23px;" class="fab fa-youtube text-white m-3"></i></a>
+              <h1 class="text-white mt-2">|</h1> -->
+            <a target="_blank" href="http://online.zucco.academy/login/index.php" class="d-flex hoverTg">
+              <!-- <h3 class="hoverTg mt-3">Login</h3> -->
+              <i style="width: 23px; height: 23px;" class="fa text-white hoverlogo fa-user mt-3 ml-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="navInfo" class="position-absolite fixed-top overflow-hidden none">
+    <div class="container">
+      <div class="row">
+        <div class="col-9 d-flex p-0">
+          <a href="tel:+998712001001">
+            <div class="d-flex">
+              <i style="width: 23px; height: 23px;" class="fa fa-phone-alt text-white mt-3 mr-3"></i>
+              <h3 class="text-white mt-3 mr-5"><b>(71) 200-1001</b></h3>
+            </div>
+          </a>
+          <a href="https://www.google.ru/maps/place/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8%D0%B9+%D0%A5%D0%B8%D0%BC%D0%B8%D0%BA%D0%BE-%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82/@41.3221315,69.2468392,18.75z/data=!4m5!3m4!1s0x38ae8b737f1f4161:0xab6842dfd7a53fdf!8m2!3d41.3221446!4d69.2463052"
+            target="_blank">
+            <div class="d-flex">
+              <i style="width: 23px; height: 23px;" class="fa fa-map-marker-alt text-white mt-3 mr-3"></i>
+              <h3 class="text-white mt-3"><b>Navoiy 32, 100011</b></h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-3 ">
+          <div class="d-flex justify-content-end">
+            <a href="https://t.me/zuccoacademy" target="_blank" class="d-flex"><i style="width: 23px; height: 23px;"
+                class="fab fa-telegram text-white hoverTg m-3"></i></a>
+            <h1 class="text-white mt-2">|</h1>
+            <a href="https://www.instagram.com/zucco.academy/" target="_blank" class="d-flex"><i
+                style="width: 23px; height: 23px;" class="fab text-white fa-instagram hoverIg m-3"></i></a>
+            <h1 class="text-white mt-2">|</h1>
+            <a href="https://www.facebook.com/ZuccoAcademy" target="_blank" class="d-flex"><i
+                style="width: 23px; height: 23px;" class="fab text-white fa-facebook hoverFb m-3"></i></a>
+            <h1 class="text-white mt-2">|</h1>
+            <a href="https://www.youtube.com/channel/UC4gsCHZHPnrF75LOY2CG7GA/featured?view_as=subscriber"
+              target="_blank" class="d-flex"><i style="width: 23px; height: 23px;"
+                class="fab text-white fa-youtube hoverYt m-3"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav style="z-index: 1000;" class="navbar navbar-expand-sm background navbar-dark fixed-top">
+    <div class="container-fluid p-2">
+      <ul style="margin-top: 35px;" id="navMenu" class="navbar-nav">
+        <li class="nav-item logo-size none">
+          <a class="nav-link p-0 mr-3" href="http://zucco.academy/">
+            <img src="images/files/zucco_logo.png" alt=""/>
+          </a>
+        </li>
+        <li class="nav-item ml-1 mt-3 none">
+          <div class="none d-flex">
+            <h3>
+              <a class="nav-link mr-4 hoverlogo text-white font" href="#AsosiySahifa">Главная страница</a>
+            </h3>
+            <h1 class="text-white mr-4">|</h1>
+          </div>
+        </li>
+        <li class="nav-item mt-3 none">
+          <div class="d-flex">
+            <h3>
+              <a class="nav-link mr-4 hoverlogo text-white font" href="#Kutubxona">Онлайн курсы</a>
+            </h3>
+            <h1 class="text-white mr-4">|</h1>
+          </div>
+        </li>
+        <li class="nav-item mt-3 none">
+          <div class="d-flex ">
+            <h3>
+              <a class="nav-link mr-4 hoverlogo text-white font" href="#Kurslar">Курсы</a>
+            </h3>
+            <h1 class="text-white mr-4">|</h1>
+          </div>
+        </li>
+        <li class="nav-item  mt-3 none">
+          <div class="d-flex ">
+            <h3>
+              <a class="nav-link mr-4 hoverlogo text-white font" href="#Sertifikat">Cертификаты</a>
+            </h3>
+            <h1 class="text-white mr-4">|</h1>
+          </div>
+        </li>
+        <li class="nav-item mt-3 none">
+          <div class="d-flex">
+            <h3>
+              <a class="nav-link hoverlogo text-white mr-4 font" href="#OchiqDarslar">Открытые уроки</a>
+            </h3>
+            <h1 class="text-white mr-4">|</h1>
+          </div>
+        </li>
+        <li class="nav-item mt-3 none">
+          <a target="_blank" style="margin-top: 5px" href="http://online.zucco.academy/login/index.php" class="d-flex">
+            <h3 class="hoverlogo font" style="font-size: 20px !important;">Вход
+              <i style="width: 20px; height: 20px;" class="fa fa-user ml-2"></i>
+            </h3>
+          </a>
+        </li>
+        <li class="nav-item ml-4 mt-3 none lang1 ">
+          <div class="dropdown show w-100" style="background-color: #0C171D;">
+            <a class="btn btn-secondary dropdown-toggle font" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ru
+            </a>
+
+            <div class="dropdown-menu lang2 " aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item py-2 font" style="font-size: 13px !important;" href="index.html">UZ</a>
+              <a class="dropdown-item py-2 font" style="font-size: 13px !important; " href="index-eng.html">EN</a>
+
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Document Full Container
+============================================= -->
+  <div id="full-container">
+    <!-- Banner
+    ============================================= -->
+    <section id="AsosiySahifa">
+      <section id="banner">
+        <div class="banner-parallax" data-banner-height="800">
+          <img src="images/updated/tepaga_2.png" alt="" />
+          <div class="overlay-colored color-bg-dark opacity-50"></div>
+          <!-- .overlay-colored end -->
+          <div class="overlay-pattern"></div>
+          <!-- .overlay-pattern end -->
+          <div class="slide-content">
+            <div class="row anim-partcle">
+
+
+              <!-- particles.js container -->
+              <div id="particles-js"></div>
+
+              <!-- scripts -->
+
+
+            </div>
+
+            <a class="nav-link logo-show mt-5 w-75" href="http://zucco.academy/">
+              <div class="pt-5">
+                <img src="images/files/zucco_logo.png" alt="" />
+              </div>
+            </a>
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-12">
+
+
+                  <div class="banner-center-box text-white text-center">
+
+                    <h1 class="typed">
+                      <h1 class="font">Добро пожаловать в <br> <span class="text"></span></h1>
+                    </h1>
+                    <div class="description ">
+                      <h2 class="font">
+                        Иновацционная | Современная <br />
+                        IT Академия
+                      </h2>
+                    </div>
+                    <div class="cta-subscribe cta-subscribe-3 box-form">
+                      <div class="box-content">
+                        <div class="cs-notifications">
+                          <div class="cs-notifications-content"></div>
+                        </div>
+                        <!-- .cs-notifications end -->
+                        <div id="errorMessage" class="openErrorMessage">
+                          <div style="text-align: left;"
+                            class="bg-danger roundedP d-flex justify-content-between p-2 p-lg-3 p-md-3">
+                            <div class="d-flex w-75">
+                              <i style="width: 23px; height: 23px;"
+                                class="fa fa-exclamation-triangle text-white mr-2 mr-lg-3 mr-md-3 mt-md-1 mt-lg-1 ml-lg-3 ml-md-3"></i>
+                              <h4 class="m-0 pt-2 font">Форма не заполнена!</h4>
+                            </div>
+                            <i onclick="errorMessageClose()" style="width: 23px; height: 23px; cursor: pointer;"
+                              class="fa fa-times-circle mr-lg-3 ml-md-3 mt-md-1 mt-lg-1 "></i>
+                          </div>
+                        </div>
+                        <form id="formPanel" class="fromPanel text-dark" target=" _blank" onsubmit="return false;">
+                          <input id="userName" name="name" style="font-family: 'Bebas Neue', cursive; font-size: 14px;" class="form-control roundedP mr-3 mb-4 font" type="text"
+                            placeholder="Введите ваше имя" />
+                          <div class="w-100 mr-3 mobile-number text-left ">
+                            <input name="telefon" class="roundedP text-dark"style=" font-family: 'Bebas Neue', cursive;font-size: 17px;"  id="mobile-number" type="tel" value="+998  " />
+                          </div>
+                          <select id="userCourse" name="course" class="form-control roundedP text-dark mr-3 font"style="font-size: 14px;">
+                            <option disabled selected hidden>Выберите курс</option>
+                            <option>IT Project Manager</option>
+                            <option>ГРАМОТНОСТЬ</option>
+                            <option>IT START</option>
+                            <option>FLUTTER</option>
+                            <option>WEB-ПРОГРАММИРОВАНИЕ</option>
+                            <option>VUE JS</option>
+                            <option>PHP</option>
+                            <option>JAVA </option>
+                            <option>CINEMA 4D</option>
+                            <option>UNITY</option>
+                            <option>UNREAL ENGINE 4</option>
+                            <option>OFFICE PRO</option>
+                          </select>
+                          <button onclick="checkThis()" class="roundedP buttonG text-white font" type="submit">
+                            <h2 class="font">Регистрация</h2>
+                          </button>
+                        </form>
+                        <div class="d-flex justify-content-end overflow-hidden">
+                          <div id="onOff" style="display: none;">on</div>
+                          <div class="telegramBot d-flex" id="telegramBot">
+                            <div>
+                              <i id="telegramBotOpenIcon" onclick="openBotLink()"
+                                class="fa fa-arrow-alt-circle-right telegramBotOpenIcon mr-2 mt-2"></i>
+                            </div>
+                            <div class="roundedT chat-ponel-in p-3 mr-3">
+                              <a target=" _blank" class="text-white " href="https://t.me/zuccoacademy_bot">
+                                <h3 class="font">Регистрация через Telegram-bot</h3>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- .box-content end -->
+                    </div>
+                    <!-- .box-form end -->
+                  </div>
+                  <!-- .banner-center-box end -->
+                </div>
+                <!-- .col-md-12 end -->
+              </div>
+              <!-- .row end -->
+            </div>
+            <!-- .container end -->
+          </div>
+          <!-- .slide-content end -->
+        </div>
+        <!-- .banner-parallax end -->
+      </section>
+      <!-- #banner end -->
+    </section>
+
+    <!-- Content
+    ============================================= -->
+
+    <!-- <section id="Kutubxona">
+      <div id="clients-testimonials" class="flat-section">
+        <div class="section-content bg-white">
+          <div class="container">
+            
+            <div class="row">
+              <div class="col-12">
+                <div class="text-center">
+                  <h1 style="font-size: 40px;">Endi bilim olish yanada qulay!!!</h1>
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                  <a href="https://zoom.us/download#client_4meeting"><img width="100px" class="mr-4"
+                      src="images/files/zoom-icon-seeklogo.com-1.svg" alt=""></a>
+                  <a href="https://discordapp.com/download"><img width="100px" class="mr-4"
+                      src="images/files/Discord-Logo+Wordmark-Color.svg" alt=""></a>
+                  <a href="https://slack.com/intl/en-uz/downloads/windows"><img width="100px"
+                      src="images/files/slack-new-logo.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="col mt-4">
+                <p style="font-size: 25px;">Online kurslarda qatnashing, hech qayerga borish shart emas, masofadan
+                  turib ishtirok eting.</p>
+                <p style="font-size: 20px;"><b>O'quvchidan nima talab etiladi?</b></p>
+                <p style="font-size: 18px;"> -Yuqorida ko'rsatilgan maxsus dasturlarni yuklab oling
+                  (  <a href="https://discordapp.com/download">Discord</a>, 
+                  <a href="https://zoom.us/download#client_4meeting">Zoom </a> va
+                    <a href="https://slack.com/intl/en-uz/downloads/windows">slack </a>) <br> -o'rtacha
+                    ko'rsatkichlarga ega bo'lgan kompyuter. (Core i3, 4 gb RAM va imkon qadar SSD xotira) <br>
+                    -tezligi 3
+                    mbit/s va undan yuqori
+                    bo'lgan
+                    internet.
+                    <br> -va
+                    albatta ilmga bo'lgan intilish</p>
+              </div>
+            </div>
+            .row end
+          </div>
+          .container end
+        </div>
+        .section-content end
+      </div>
+      .flat-section end
+    </section> -->
+
+    <!-- Carousel started -->
+
+    <section id="Kutubxona">
+      <div class="container-fluid py-3 py-lg-5 ">
+        <div class="swiffy-slider slider-item-show4 slider-nav-outside slider-nav-sm slider-nav-dark slider-nav-caret slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-32x9 slider-item-ratio-contain shadow-lg py-2 py-lg-3"
+            data-slider-nav-autoplay-interval="3000" style="background-color: #252A34; border-radius: 10px;">
+            <div class="slider-container" style="height: 250px;">
+                <div style="height: 250px; border-radius: 20px;">
+                    <img style="width: 100%; height: 100%; object-fit: cover;border-radius: 20px;" src="img/8.svg" alt="">
+                </div>
+                <div style="height: 250px;border-radius: 20px;">
+                  <div style="height: 250px; border-radius: 20px;">
+                    <img style="width: 100%; height: 100%; object-fit: cover;border-radius: 20px;" src="img/5.svg" alt="">
+                  </div>
+                </div>
+                <div style="height: 250px;border-radius: 20px;">
+                  <div style="height: 250px; border-radius: 20px;">
+                    <img style="width: 100%; height: 100%; object-fit: cover;border-radius: 20px;" src="img/3.svg" alt="">
+                </div>
+                </div>
+                <div style="height: 250px; border-radius: 20px;">
+                    <div style="height: 250px; border-radius: 20px;">
+                      <img style="width: 100%; height: 100%; object-fit: cover;border-radius: 20px;" src="img/2.svg" alt="">
+                   </div>
+                </div>
+                <div style="height: 250px;border-radius: 20px;">
+                  <div style="height: 250px; border-radius: 20px;">
+                    <img style="width: 100%; height: 100%; object-fit: cover;border-radius: 20px;" src="img/4.svg" alt="">
+                 </div>
+                </div>
+                <div style="height: 250px;border-radius: 20px;">
+                  <div style="height: 250px; border-radius: 20px;">
+                    <img style="width: 100%; height: 100%; object-fit: cover;border-radius: 20px;" src="img/6.svg" alt="">
+                  </div>
+                </div>
+                <div style="height: 250px;border-radius: 20px;">
+                  <div style="height: 250px; border-radius: 20px;">
+                    <img style="width: 100%; height: 100%; object-fit: cover;border-radius: 20px;" src="img/7.svg" alt="">
+                </div>
+              </div>
+              <div style="height: 250px;border-radius: 20px;">
+                <div style="height: 250px; border-radius: 20px;">
+                  <img style="width: 100%; height: 100%; object-fit: cover;border-radius: 20px;" src="img/1.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <button type="button" style=" outline: none; border: none; z-index: -1;" class="slider-nav" aria-label="Go to previous"></button>
+            <button type="button" style=" outline: none; border: none;  z-index: -1;" class="slider-nav slider-nav-next"aria-label="Go to next"></button>
+        </div>
+    </div>
+     </section>
+
+    <!-- Carousel end  -->
+
+    <section id="content">
+      <div id="content-wrap">
+        <!-- === Choosing Courses =========== -->
+        <section id="Kurslar">
+          <div id="choosing-courses" class="flat-section">
+            <div class="section-content">
+              <div class="container">
+                <!-- <div class="row d-flex justify-content-end">
+                  <div class="discount p-3 text-center">
+                    <h1 style="font-size: 40px;" class="text-white none"><br> <b>50%</b> <br></h1>
+                    <h2 style="z-index: 100;" class="text-white none">chegirma!!!</h2>
+                    <h2 class="text-white mt-5 block"><b>50%</b></h2>
+                  </div>
+                </div> -->
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title text-center">
+                      <h2 class="font" style="font-size: 40px;">Наши курсы</h2>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-4 col-lg-4 col-12 mt-3">
+                        <div class="card h-100 box-preview box-course">
+                          <a href="PM.ru.html" target="_blank">
+                            <div class="card-header p-0">
+                              <div class="p-4">
+                                <img width="100%" height="170px" src="images/web/Дизайн без названия (1).svg">
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              <h3 class="text-center font">IT Project Manager</h3>
+                              <h5 class="text-center mt-5 font" style="font-size:15px !important;">
+                                В КУРСАХ КОМПЬЮТЕРНОЙ ГРАМОТНОСТИ ВЫ ИЗУЧИТЕ САМЫЕ НЕОБХОДИМЫЕ БАЗОВЫЕ НАВЫКИ ПОЛЬЗОВАНИЯ КОМПЬЮТЕРОМ. <br>
+                                Продолжительность курса - 6мес.
+                              </h5>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent">
+                              <button class="roundedP buttonG">
+                                <h4 class="text-center text-white mt-2   font"
+                                  style="font-size: 15px !important;">
+                                  На 6 месяцев / 12 000 000 UZS.
+                                </h4>
+                              </button>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-lg-4 col-12 mt-3">
+                        <div class="card h-100 box-preview box-course">
+                          <a href="savodxonlik.ru.html" target="_blank">
+                            <div class="card-header p-0">
+                              <div class="p-4">
+                                <img width="100%" height="170px" src="images/files/computer (1).svg">
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              <h3 class="text-center font">грамотность</h3>
+                              <h5 class="text-center mt-5 font" style="font-size:15px !important;">
+                                В курсах компьютерной грамотности вы изучите самые необходимые базовые навыки
+                                пользования компьютером.
+                                Продолжительность курса 1 месяц.
+                              </h5>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent">
+                              <button class="roundedP buttonG">
+                                <h4 class="text-center text-white mt-2  font"
+                                  style="font-size: 15px !important;">
+                                  На 1 месяц / 555 000 UZS.
+                                </h4>
+                              </button>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-lg-4 col-12 mt-3">
+                        <div class="card h-100 box-preview box-course">
+                          <a href="it-start.ru.html" target="_blank">
+                            <div class="card-header p-0">
+                              <div class="p-4">
+                                <img width="100%" height="170px" src="images/files/responsive.svg">
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              <h3 class="text-center font">IT Start</h3>
+                              <h5 class="text-center mt-4 pt-2 font" style="font-size:15px !important;">
+                                Курс IT Start является важным этапом для начинающего программиста. На этом этапе вы
+                                изучите самые важные базовые знания программиста. <br>
+                                Продолжительность курса 1 месяц.
+                              </h5>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent">
+                              <button class="roundedP buttonG">
+                                <h4 class="text-center text-white mt-2 font"
+                                  style="font-size: 15px !important;">
+                                  На 1 месяц / 555 000 UZS.
+                                </h4>
+                              </button>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-lg-4 col-12 mt-3">
+                        <div class="card h-100 box-preview box-course">
+                          <a href="http://online.zucco.academy/login/index.php" target="_blank">
+                            <div class="card-header p-0">
+                              <div class="p-4">
+                                <img width="100%" height="170px" src="images/web/flutter.svg">
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              <h3 class="text-center font" style="font-size:25px ;">Flutter</h3>
+                              <h5 class="text-center mt-4 font" style="font-size:15px !important;">
+                                <!-- Android Development kursi davomiyligi 9 oy, shundan 6 oy nazariya va 3 oy amaliyot. -->
+                                Этот курс предназначен для тех, кто хочет создавать мобильные приложения как для iOS,
+                                так и для Android одновременно. Продолжительность курса 9 месяцев.
+                              </h5>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent">
+                              <button class="roundedP buttonG">
+                                <h4 class="text-center text-white mt-2 font"
+                                  style="font-size: 15px !important;">
+                                  На 9 месяцев / 7 200 000 UZS.
+                                </h4>
+                              </button>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-lg-4 col-12 mt-3 web-link">
+                        <a href="web.ru.html" target="_blank">
+                          <div class="card h-100 box-preview box-course">
+                            <div class="card-header p-0 box-img" style="width: 348px; height: 218px;">
+                              <div class="h-100">
+                                <div class="h-100">
+                                  <div class="row mt-5">
+                                    <div class="col-4 mt-4">
+                                      <img src="images/files/JS.svg" alt="" />
+                                    </div>
+                                    <div class="col-4 mt-lg-5 mt-md-5 pt-5">
+                                      <img class="html-icon" src="images/files/HTML5_logo_and_wordmark.svg" alt="" />
+                                    </div>
+                                    <div class="col-4 mt-4">
+                                      <img src="images/files/CSS3_logo_and_wordmark.svg" alt="" />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              <h3 class="text-center font">WEB-программирование</h3>
+                              <h5 class="text-center mt-4  font" style="font-size:15px !important;">
+                                Эта часть программирования включает в себя уроки Front-end, которые длятся 3 месяца. За
+                                этот период вы изучите html, css, js и др <br />
+                              </h5>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent">
+                              <button class="roundedP buttonG">
+                                <h4 class="text-center text-white mt-2 font"
+                                  style="font-size: 15px !important;">
+                                  На 3 месяца / 1 800 000 UZS.
+                                </h4>
+                              </button>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- dev ops
+                    <div class="col-md-4 col-lg-4 col-12 mt-3">
+                      <div class="card h-100 box-preview box-course">
+                        <a href="savodxonlik.html" target="_blank">
+                          <div class="card-header p-0">
+                            <div class="p-4">
+                              <img width="100%" height="170px" src="images/files/devopps.png">
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <h3 class="text-center">DevOps</h3>
+                            <h5 class="text-center mt-5 fontFamily">
+                              Ushbu kursda siz dasturiy ta'minotni ishlab chiqish va ishlatish samaradorligini oshirish bo'yicha amaliyotlar to'plamini o'rganasiz. 
+                            </h5>
+                          </div>
+                          <div class="card-footer border-0 bg-transparent">
+                            <button class="roundedP buttonG">
+                              <h4 class="text-center text-white mt-2">
+                                12 Dars /  <b>800 000 UZS.</b>
+                              </h4>
+                            </button>
+                          </div>
+                        </a>
+                      </div>
+                    </div> -->
+                      <!-- React JS <div class="col-md-4 col-lg-4 col-12 mt-4">
+                      <div class="card h-100 box-preview box-course">
+                        <div class="card-header p-0">
+                          <div class="text-center p-4">
+                            <img height="170px" src="images/files/react.svg">
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="text-center">React JS</h3>
+                          <h5 class="text-center mt-5 fontFamily">
+                            React js kutubxonasi frontend web dasturini tuzish uchun. <br> Kurs 2 oydan
+                            iborat.
+                          </h5>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                          <a href="http://online.zucco.academy/" target="_blank">
+                          <button class="roundedP buttonG">
+                            <h4 class="text-center text-white mt-2">
+                              12 Dars /  <b>600 000 UZS.</b>
+                            </h4>
+                          </button>
+                          </a>
+                        </div>
+                      </div>
+                    </div> -->
+                      <div class="col-md-4 col-lg-4 col-12 mt-3">
+                        <div class="card h-100 box-preview box-course">
+                          <a href="vue-js.ru.html" target="_blank">
+                            <div class="card-header p-0">
+                              <div class="text-center p-4">
+                                <img height="170px" src="images/files/Vue.js_Logo_2.svg">
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              <h3 class="text-center font">Vue JS</h3>
+                              <h5 class="text-center mt-4 font" style="font-size:15px !important;">
+                                Библиотека Vue js предназначена для составления части Front-end. <br>
+                                Продолжительность курса 2 месяца.
+                              </h5>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent mt-3">
+                              <a href="http://online.zucco.academy/" target="_blank">
+                                <button class="roundedP buttonG">
+                                  <h4 class="text-center text-white mt-2 font"
+                                    style="font-size: 15px !important;">
+                                    На 2 месяца / 1 200 000 UZS.
+                                  </h4>
+                                </button>
+                              </a>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4 col-lg-4 col-12 mt-3">
+                        <div class="card h-100 box-preview box-course">
+                          <a href="http://online.zucco.academy/login/index.php" target="_blank">
+                            <div class="card-header p-0">
+                              <div class="text-center p-4">
+                                <img height="170px" src="images/files/new-php-logo.svg">
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              <h3 class="text-center font">PHP</h3>
+                              <h5 class="text-center mt-4 font" style="font-size:15px !important;">
+                                Этот курс включает в себя обучение языку программирования PHP для создания части
+                                Back-end. Продолжительность курса 6 месяцев.
+                              </h5>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent">
+                              <a target="_blank" href="http://online.zucco.academy/">
+                                <button class="roundedP buttonG">
+                                  <h4 class="text-center text-white mt-2 font"
+                                    style="font-size: 15px !important;">
+                                    На 6 месяцев / 4 800 000 UZS.
+                                </h4>
+                              </button>
+                            </a>
+                        </div>
+                       </a>
+                      </div>
+                    </div>
+                    <div class=" col-md-4 col-lg-4 col-12 mt-3">
+                                    <div class="card h-100 box-preview box-course">
+                                      <a href="java.ru.html" target="_blank">
+                                        <div class="card-header p-0">
+                                          <div class="p-4">
+                                            <img width="100%" height="170px" src="images/files/java-seeklogo.com.svg">
+                                          </div>
+                                        </div>
+                                        <div class="card-body">
+                                          <h3 class="text-center font">Java</h3>
+                                          <h5 class="text-center mt-4 font" style="font-size:15px !important;">
+                                            Знакомство с языком программирования Java и работа с ним. Продолжительность
+                                            курса 3 месяца.
+                                          </h5>
+                                        </div>
+                                        <div class="card-footer border-0 bg-transparent mt-3">
+                                          <button class="roundedP buttonG">
+                                            <h4 class="text-center text-white mt-2 font"
+                                              style="font-size: 15px !important;">
+                                              На 6 месяцев / 4 800 000 UZS.
+                                            </h4>
+                                          </button>
+                                        </div>
+                                      </a>
+                                    </div>
+                            </div>
+                            <!-- Python
+                    <div class="col-md-4 col-lg-4 col-12 mt-4">
+                      <div class="card h-100 box-preview box-course">
+                        <div class="card-header p-0">
+                          <div class="text-center p-4">
+                            <img height="170px" src="images/files/Python-logo-notext.svg">
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="text-center">Python</h3>
+                          <h5 class="text-center mt-5 fontFamily">
+                            Web-Dasturlashning backend qismini Python da qurish va ishga tushirish bilimlarini o'z
+                            ichiga
+                            oladi, davomiyligi 6 oydan iborat.
+                          </h5>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                          <a href="http://online.zucco.academy/" target="_blank">
+                          <button class="roundedP buttonG">
+                            <h4 class="text-center text-white mt-2">
+                              12 Dars /  <b>277 500 UZS.</b>
+                            </h4>
+                          </button>
+                          </a>
+                        </div>
+                      </div>
+                    </div> -->
+                            <!-- C#
+                    <div class="col-md-4 col-lg-4 col-12 mt-4">
+                      <div class="card h-100 box-preview box-course">
+                        <div class="card-header p-0 ">
+                          <div class="text-center p-4">
+                            <img height="170px" src="images/files/dotnet.svg">
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="text-center">C#</h3>
+                          <h5 class="text-center mt-5 fontFamily">
+                            C# dasturlash tilining boshlang'ich va o'rta bilimlarni
+                            o'rganish bo'yicha 6 oylik kurs.<br/>
+                          </h5>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                          <a href="http://online.zucco.academy/" target="_blank">
+                          <button class="roundedP buttonG">
+                            <h4 class="text-center text-white mt-2">
+                              12 Dars /  <b>277 500 UZS.</b>
+                            </h4>
+                          </button>
+                          </a>
+                        </div>
+                      </div>
+                    </div> -->
+                            <!-- AutoCAD <div class="col-md-4 col-lg-4 col-12 mt-4">
+                      <div class="card h-100 box-preview box-course">
+                        <div class="card-header p-0 ">
+                          <div class="text-center p-4">
+                            <img height="170px" src="images/files/icons8-autodesk-autocad.svg">
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="text-center">AutoCAD</h3>
+                          <h5 class="text-center mt-5 fontFamily">
+                            AutoCAD 2 oylik dasturida 2D chizmalar tayyorlash va 3D
+                            modellar yasash bilimlarini o'z ichiga
+                            oladi.<br />
+                          </h5>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                          <a href="http://online.zucco.academy/" target="_blank">
+                          <button class="roundedP buttonG">
+                            <h4 class="text-center text-white mt-2">
+                              12 Dars /  <b>300 000 UZS.</b>
+                            </h4>
+                          </button>
+                          </a>
+                        </div>
+                      </div>
+                    </div> -->
+                            <div class="col-md-4 col-lg-4 col-12 mt-3">
+                              <div class="card h-100 box-preview box-course">
+                                <a href="cinema.ru.html" target="_blank">
+                                  <div class="card-header p-0">
+                                    <div class="text-center p-4">
+                                      <img height="170px" src="images/files/Cinema4D.svg">
+                                    </div>
+                                  </div>
+                                  <div class="card-body">
+                                    <h3 class="text-center font">Cinema 4D</h3>
+                                    <h5 class="text-center mt-4 font" style="font-size:15px !important;">
+
+                                      Основы Cinema 4D, 3D моделирование, создание текстур, анимация и многое другое.
+                                      Продолжительность  <br>курса 3 месяца.
+                                    </h5>
+                                  </div>
+                                  <div class="card-footer border-0 bg-transparent">
+                                    <a href="http://online.zucco.academy/" target="_blank">
+                                      <button class="roundedP buttonG">
+                                        <h4 class="text-center text-white mt-2 font"
+                                          style="font-size: 15px !important;">
+                                          На 3 месяца/ 3 000 000 UZS.
+                                        </h4>
+                                      </button>
+                                    </a>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-12 mt-4">
+                              <div class="card h-100 box-preview box-course">
+                                <a href="http://online.zucco.academy/login/index.php" target="_blank">
+                                  <div class="card-header p-0">
+                                    <div class="p-4">
+                                      <img width="100%" height="170px" src="images/web/unity.svg">
+                                    </div>
+                                  </div>
+                                  <div class="card-body">
+                                    <h3 class="text-center font">Unity</h3>
+                                    <h5 class="text-center mt-4 font" style="font-size:15px !important;">
+                                      Unity это cross-платформа для мобильных и компьютерных игр. Unity дает возможность
+                                      создавать 3D и 2D игры.
+                                    </h5>
+                                  </div>
+                                  <div class="card-footer border-0 bg-transparent">
+                                    <button class="roundedP buttonG mt-3">
+                                      <h4 class="text-center text-white mt-2  font"
+                                        style="font-size: 15px !important;">
+                                        На 6 месяцев / 6 000 000 UZS.
+                                      </h4>
+                                    </button>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-12 mt-4">
+                              <div class="card h-100 box-preview box-course">
+                                <a href="http://online.zucco.academy/login/index.php" target="_blank">
+                                  <div class="card-header p-0">
+                                    <div class="text-center p-4">
+                                      <img height="170px" src="images/files/Unreal_Engine_Logo.svg">
+                                    </div>
+                                  </div>
+                                  <div class="card-body">
+                                    <h3 class="text-center font">Unreal Engine 4</h3>
+                                    <h5 class="text-center mt-4 font" style="font-size:15px !important;">
+                                      Основы Unreal Engine 4, создание 3D моделей, создание VR сцен, создание текстур,
+                                      анимация. <br> Продолжительность курса 6 месяцев.
+                                    </h5>
+                                  </div>
+                                  <div class="card-footer border-0 bg-transparent">
+                                    <a href="http://online.zucco.academy/" target="_blank">
+                                      <button class="roundedP buttonG">
+                                        <h4 class="text-center text-white mt-2 font"
+                                          style="font-size: 15px !important;">
+                                          На 6 месяцев / 6 000 000 UZS.
+                                        </h4>
+                                      </button>
+                                    </a>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-12 mt-4">
+                              <div class="card h-100 box-preview box-course">
+                                <a href="office.ru.html" target="_blank">
+                                  <div class="card-header p-0">
+                                    <div class="p-4">
+                                      <img width="100%" height="170px" src="images/web/ofise.svg">
+                                    </div>
+                                  </div>
+                                  <div class="card-body">
+                                    <h3 class="text-center font">Office Pro </h3>
+                                    <h5 class="text-center mt-4 font"  style="font-size:15px !important;">
+                                      Обучение профессиональному использованию программ Microsoft Office . <br>
+                                      Продолжительность курса 2 месяца
+                                    </h5>
+                                  </div>
+                                  <div class="card-footer border-0 bg-transparent mt-3">
+                                    <button class="roundedP buttonG pt-2">
+                                      <h4 class="text-center text-white font"
+                                        style="font-size: 15px !important;">
+                                        На 2 месяца / 1 000 000 UZS.
+                                      </h4>
+                                    </button>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <!-- English 4 IT <div class="col-md-4 col-lg-4 col-12 mt-4">
+                      <div class="card h-100 box-preview box-course">
+                        <div class="card-header p-0 box-img img-bg">
+                          <img src="images/files/english.jpg" alt="" />
+                        </div>
+                        <div class="card-body">
+                          <h3 class="text-center">English 4 IT</h3>
+                          <h5 class="text-center mt-5 fontFamily">
+                            Dasturlash yo'nalishi bo'yicha Ingliz tili kurslari, beginner, elementary,
+                            pre-intermediate, darajalari
+                            10-12 haftalik kurslardan iborat. <br />
+                          </h5>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                          <a href="http://online.zucco.academy/" target="_blank">
+                          <button class="roundedP buttonG">
+                            <h4 class="text-center text-white mt-2">
+                              12 Dars /  <b>200 000 UZS.</b>
+                            </h4>
+                          </button>
+                          </a>
+                        </div>
+                      </div>
+                    </div> -->
+                        </div>
+                        <!-- <div class="row">
+                          <div class="mt-5 pt-5 d-flex">
+                            <i style="width: 50px; height: 50px;" class="fa fa-money-check-alt text-danger mr-3"></i>
+                            <div>
+                              <p style="font-size: 17px;" class="mt-2 font">Переводите деньги через click
+                                <a target="_blank" href="paypage.ru.html">для онлайн-курсов.</a>
+                              </p>
+                            </div>
+                          </div>
+                        </div> -->
+                        <!-- .col-md-12 end -->
+                      </div>
+                      <!-- .row end -->
+                    </div>
+                    <!-- .container end -->
+                  </div>
+                  <!-- .section-content end -->
+                </div>
+                <!-- .flat-section end -->
+              </div>
+        </section>
+
+        <!-- === About Us ============ -->
+        <section>
+          <div class="mb-5 xaqida ">
+            <div class="line-after"></div>
+            <a href="# " class="d-block">
+              <a href="malumotlart/information,ru.html">
+                <h1 class="text-center development font " style="font-size: 20px !important;">о программировании</h1>
+              </a>
+            </a>
+            <div class="line-after "></div>
+          </div>
+
+          <div class="container">
+
+            <div class="owl-carousel owl-theme pt-lg-5">
+              <div class="item">
+                <div class="pt-5 p-3">
+                  <div class="card border-0 user-info mt-5 mb-3">
+                    <div class="card-body position-relative text-center pt-5 card-bg">
+                      <img class="position-absolute user" src="images/ellipse.png" alt="" />
+                      <div class="mt-5 pt-3">
+                        <h4>Brandon Richards</h4>
+                        <p class="">Fotograf, Bosh dizayner</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="pt-5 p-3">
+                  <div class="card border-0 user-info mt-5 mb-3">
+                    <div class="card-body position-relative text-center pt-5 card-bg">
+                      <img class="position-absolute user" src="images/ellipse1.png" alt="" />
+                      <div class="mt-5 pt-3">
+                        <h4>Beth Mckinney</h4>
+                        <p class="">Mizlar bilan ishlash bo’lim boshlig’i</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="pt-5 p-3">
+                  <div class="card border-0 user-info mt-5 mb-3">
+                    <div class="card-body position-relative text-center pt-5 card-bg">
+                      <img class="position-absolute user" src="images/ellipse2.png" alt="" />
+                      <div class="mt-5 pt-3">
+                        <h4>Dianne Fisher</h4>
+                        <p class="">Mizlar bilan ishlash meneger</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="pt-5 p-3">
+                  <div class="card border-0 user-info mt-5 mb-3">
+                    <div class="card-body position-relative text-center pt-5 card-bg">
+                      <img class="position-absolute user" src="images/ellipse3.png" alt="" />
+                      <div class="mt-5 pt-3">
+                        <h4>Tom Cruise</h4>
+                        <p class="">Akter)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="pt-5 p-3">
+                  <div class="card border-0 user-info mt-5 mb-3">
+                    <div class="card-body position-relative text-center pt-5 card-bg">
+                      <img class="position-absolute user" src="images/ellipse4.png" alt="" />
+                      <div class="mt-5 pt-3">
+                        <h4>Robert Downey Jr.</h4>
+                        <p class="">Bu ham akter)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="pt-5 p-3">
+                  <div class="card border-0 user-info mt-5 mb-3">
+                    <div class="card-body position-relative text-center pt-5 card-bg">
+                      <img class="position-absolute user" src="images/ellipse5.png" alt="" />
+                      <div class="mt-5 pt-3">
+                        <h4>Jim Carrey</h4>
+                        <p class="">Bunisi ham akter)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- === Our Instructors =========== -->
+        <section id="Sertifikat">
+          <div id="our-instructors" class="flat-section">
+            <div class="section-content">
+              <div class="container">
+                <div class="text-center">
+                  <h1 style="font-size: 40px;" class="mb-3 font">Сертификаты</h1>
+                  <p style="font-size: 20px;" class="font">Наши студенты, успешно прошедшие обучение, будут награждены почетными
+                    грамотами.</p>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-lg-6 col-12 mt-5">
+                    <img class="mr-5 rounded" src="images/web/serte1.svg" alt="">
+                  </div>
+                  <div class="col-md-6 col-lg-6 col-12 mt-5">
+                    <img class="rounded" src="images/web/sertefekat.svg" alt="">
+                  </div>
+                </div>
+              </div>
+              <!-- .container end -->
+            </div>
+            <!-- .section-content end -->
+          </div>
+          <!-- .flat-section end -->
+        </section>
+        <!-- === CTA Title 1 =========== -->
+        <section id="OchiqDarslar">
+          <div id="cta-title-1" class="parallax-section text-white">
+            <img src="images/updated/tegiga_2.png" alt="" />
+            <div class="overlay-colored color-bg-dark opacity-50"></div>
+            <!-- .overlay-colored end -->
+            <div class="overlay-pattern"></div>
+            <!-- .overlay-pattern end -->
+            <div class="section-content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 text-center ">
+                    <h1 class="font">Открытые уроки</h1>
+                    <a class="btn scroll-top scroll-top font x-large gradient roundedP mt-5"
+                      href="#header">Зарегистрироваться</a>
+                  </div>
+                  <!-- .col-md-12 end -->
+                </div>
+                <!-- .row end -->
+              </div>
+              <!-- .container end -->
+            </div>
+            <!-- .section-content end -->
+          </div>
+          <!-- .parallax-section end -->
+        </section>
+      </div>
+      <!-- #content-wrap -->
+    </section>
+    <!-- #content end -->
+
+    <!-- Footer
+    ============================================= -->
+    <footer class="" id="footer">
+      <div id="footer-bar-1" class="footer-bar">
+        <div class="footer-bar-wrap">
+          <div class="container mb-lg-0 mb-md-0 mb-5">
+            <div class="row h-100 text-white mb-lg-0 mb-md-0 pb-lg-0 pb-md-0 mb-5 pb-5">
+              <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-center">
+                <div class="none">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d890.8325613954977!2d69.24677649765832!3d41.322096628233126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b737f1f4161%3A0xab6842dfd7a53fdf!2z0KLQsNGI0LrQtdC90YLRgdC60LjQuSDQpdC40LzQuNC60L4t0KLQtdGF0L3QvtC70L7Qs9C40YfQtdGB0LrQuNC5INCY0L3RgdGC0LjRgtGD0YI!5e0!3m2!1sru!2s!4v1584621852237!5m2!1sru!2s"
+                    width="400" height="250" frameborder="0" class="border" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-center">
+                <div class="card border-0 bg-transparent">
+                  <div class="card-header border-0 bg-transparent">
+                    <h2 class="text-dark font">свяжитесь с нами:</h2>
+                  </div>
+                  <div class="card-body">
+                    <a href="tel:+998712001001">
+                      <div class="d-flex">
+                        <i style="width: 23px; height: 23px;" class="fa fa-phone-alt  mr-4"></i>
+                        <h3 class="text-dark font">(71) 200-1001</h3>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="card-footer mb-5 border-0 bg-transparent">
+                    <div class="d-flex">
+                      <a href="https://t.me/zuccoacademy" target="_blank" class="d-flex"><i
+                          style="width: 35px; height: 35px;" class="fab fa-telegram hoverTg mr-3 mt-3"></i></a>
+                      <h1 class="text-white text-dark mt-3">|</h1>
+                      <a href="https://www.instagram.com/zucco.academy/" target="_blank" class="d-flex"><i
+                          style="width: 35px; height: 35px;" class="fab fa-instagram hoverIg m-3"></i></a>
+                      <h1 class="text-white text-dark mt-3">|</h1>
+                      <a href="https://www.facebook.com/ZuccoAcademy" target="_blank" class="d-flex"><i
+                          style="width: 35px; height: 35px;" class="fab fa-facebook hoverFb m-3"></i></a>
+                      <h1 class="text-dark mt-3">|</h1>
+                      <a href="https://www.youtube.com/channel/UC4gsCHZHPnrF75LOY2CG7GA/featured?view_as=subscriber"
+                        target="_blank" class="d-flex"><i style="width: 35px; height: 35px;"
+                          class="fab fa-youtube hoverYt m-3"></i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-center">
+                <div class="card border-0 h-100 bg-transparent">
+                  <div class="card-header border-0 bg-transparent">
+                    <div class="none">
+                      <h2 class="text-dark font">О нас:</h2>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="text-dark font">
+                      IT академии открылся при IT организации
+                      <a class="text-primary" href="https://zucco.tech/"><b>ZuccoTech</b></a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- .row end -->
+          </div>
+          <!-- .container end -->
+        </div>
+        <!-- .footer-bar-wrap -->
+      </div>
+      <!-- #footer-bar-1 end -->
+    </footer>
+    <!-- #footer end -->
+  </div>
+  <!-- #full-container end -->
+
+  <!-- External JavaScripts
+    ============================================= -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/intlTelInput.js"></script>
+  <script src="js/typed.js"></script>
+  <script>
+    let navP = document.getElementById("navInfoPhone");
+    let nav = document.getElementById("navInfo");
+    let navMenu = document.getElementById("navMenu");
+    var typed = new Typed(".text", {
+      strings: ["Zucco Tech", "Zucco Academy"],
+      typeSpeed: 60,
+      backSpeed: 60,
+      loop: false
+    });
+    $("#mobile-number").intlTelInput({
+      defaultCountry: "uz",
+      utilsScript: "js/utils.js"
+    });
+    window.onscroll = function () {
+      if (window.pageYOffset >= 40) {
+        nav.style.height = "0px";
+        navMenu.style.marginTop = "0px";
+        navMenu.style.transition = "0.3s";
+        nav.style.transition = "0.3s";
+        navP.style.height = "0px";
+        navP.style.transition = "0.3s";
+      } else {
+        nav.style.height = "50px";
+        navMenu.style.marginTop = "35px";
+        navMenu.style.transition = "0.3s";
+        nav.style.transition = "0.3s";
+        navP.style.height = "50px";
+        navP.style.transition = "0.3s";
+      }
+    };
+  </script>
+  <script src="js/main.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/brands.js"></script>
+  <script src="js/fontawesome.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jRespond.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.waitforimages.min.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/simple-scrollbar.min.js"></script>
+  <script src="js/jquery.stellar.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/functions.js"></script>
+
+  <script src="js/jQuery.min.js"></script>
+  <script src="js/popover.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+
+
+
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- stats.js -->
+  <script src="js/stats.js"></script>
+  <script>
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    stats.domElement.style.display = 'none';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function () {
+      stats.begin();
+      stats.end();
+      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+  </script>
+
+</body>
+
+</html>

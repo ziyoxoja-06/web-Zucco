@@ -1,2 +1,1 @@
-# web-Zucco
-Zucco academy website
+# Zucco-sayt
